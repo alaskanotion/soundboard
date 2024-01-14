@@ -1,0 +1,73 @@
+html, body {
+  height: relative;
+  width: relative;
+}
+
+body {
+  background-color: #ffffff;
+  border-color: transparent;
+  color: Black;
+  font-family: Raleway;
+}
+
+img {
+  width: 60px;
+  padding: 15px;
+  opacity: 0.3;
+}
+
+button:hover, button:active, img:hover, img:active {
+  cursor: pointer;
+}
+
+input[type="range"] {
+  visibility: visible;
+}
+
+input[type="range"] {
+    -webkit-appearance: none; /* Remove default styles on WebKit browsers */
+    width: 100px;
+    height: 5px;
+    background-color: #bcbcbc;
+    border-radius: 5px; /* Rounded corners for the track */
+}
+
+/* Styling the thumb (the handle) */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styles on WebKit browsers */
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    background-color: #bcbcbc;
+}
+
+
+input[type="range"].slider-active {
+ background-color: #333;
+}
+input[type="range"].slider-active::-webkit-slider-thumb {
+    background-color: #333;
+}
+
+.active {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#sound-types {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  max-width: 100vh;
+  min-height: 10vh;
+}
