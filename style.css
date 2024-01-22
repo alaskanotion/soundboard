@@ -69,5 +69,6 @@ input[type="range"].slider-active::-webkit-slider-thumb {
   flex-wrap: wrap;
   margin-top: 20px;
   max-width: 400px;
+  min-width: 300px;
   min-height: 10vh;
 }
